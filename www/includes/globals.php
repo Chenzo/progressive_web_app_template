@@ -5,6 +5,6 @@ $title = "Progressive Web App Example";
 $keywords = "PWA, Progressive Web App, Example, Git Hub";
 $version = "v0.3";
 
-define('CACHE_BUSTER', '1546018678378');            // Automatically updates
+define('CACHE_BUSTER', '1546021846487');            // Automatically updates
 
 ?>

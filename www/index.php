@@ -24,9 +24,9 @@ include "includes/globals.php";
         <meta name="msapplication-starturl" content="/">
         
 
-        <link rel="apple-touch-icon" href="images/sotm_logo-192.png">
-        <link rel="apple-touch-icon" sizes="192x192" href="images/sotm_logo-192.png">
-        <link rel="apple-touch-icon" sizes="512x512" href="images/sotm_logo-512.png">
+        <link rel="apple-touch-icon" href="images/pwae_logo-192.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="images/pwae_logo-192.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="images/pwae_logo-512.png">
 
 
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
@@ -44,10 +44,14 @@ include "includes/globals.php";
     <body class="home">
 
         <main role="main">
-            good to go...
+            
 
+
+            <img src="images/pwae_logo-512.png" />
+            <p>Testing PWAs</p>
         </main>
 
+        <script src="js/vendor/jquery-3.3.1.min.js"></script>
         <script src="js/pwae.js?v=<?= CACHE_BUSTER ?>""></script>
 
         <script></script>
