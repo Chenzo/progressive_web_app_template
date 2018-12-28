@@ -7,7 +7,7 @@ include "includes/globals.php";
         <meta charset="utf-8">
         <title><?= $title; ?></title>
         <meta name="robots" content="INDEX,FOLLOW,NOODP" />
-        <link rel="canonical" href="https://www.chenzorama.com/pwa" />
+        <link rel="canonical" href="https://www.chenzorama.com/pwae" />
         <meta name="description" content="<?= $descr; ?>" />
         <meta name="keywords" content="<?= $keywords; ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,10 +45,20 @@ include "includes/globals.php";
 
         <main role="main">
             
+            <div class="output">
+
+            </div>
+
+            <img class="logo" src="images/pwae_logo-512.png" />
+            <p>Testing PWAs - v 0.5</p>
+
+            <div>
+            <button class="js-save">SAVE</button>
+            <button class="js-one">make IMage</button>
+            </div>
 
 
-            <img src="images/pwae_logo-512.png" />
-            <p>Testing PWAs</p>
+            <div class="one">img</div><div class="two">two</div>
         </main>
 
         <script src="js/vendor/jquery-3.3.1.min.js"></script>

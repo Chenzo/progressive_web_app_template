@@ -1,7 +1,37 @@
 main {
     text-align: center;
 
-    img {
+    .output {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid black;
+    }
+
+    img.logo {
         margin: 50px;
+        height: 40vh;
+    }
+
+    .one {
+        img {
+            width: 300px;
+        }
+        display: inline;
+        margin: 20px;
+    }
+
+    .two {
+        img {
+            height: 30vh;
+        }
+        display: inline;
+        margin: 20px;
+    }
+
+    button {
+        padding: 10px;
+        background-color: black;
+        margin: 10px;
     }
 }

@@ -1091,8 +1091,28 @@ body {
 
 main {
   text-align: center; }
-  main img {
-    margin: 50px; }
+  main .output {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid black; }
+  main img.logo {
+    margin: 50px;
+    height: 40vh; }
+  main .one {
+    display: inline;
+    margin: 20px; }
+    main .one img {
+      width: 300px; }
+  main .two {
+    display: inline;
+    margin: 20px; }
+    main .two img {
+      height: 30vh; }
+  main button {
+    padding: 10px;
+    background-color: black;
+    margin: 10px; }
 
 /* go ahead use this file. No one will care... it's all good */
 /* this is for specificity fixes... */
