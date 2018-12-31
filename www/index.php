@@ -53,8 +53,10 @@ include "includes/globals.php";
             <p>Testing PWAs - v 0.5</p>
 
             <div>
-            <button class="js-save">SAVE</button>
+            <button class="js-save">SAVE FILES</button>
             <button class="js-one">make IMage</button>
+
+            <button class="js-three">make Red Tree</button>
             </div>
 
 

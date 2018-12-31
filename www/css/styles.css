@@ -1111,8 +1111,12 @@ main {
       height: 30vh; }
   main button {
     padding: 10px;
-    background-color: black;
-    margin: 10px; }
+    background-color: white;
+    border-radius: 5px;
+    margin: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700; }
 
 /* go ahead use this file. No one will care... it's all good */
 /* this is for specificity fixes... */

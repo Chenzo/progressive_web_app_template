@@ -31,7 +31,11 @@ main {
 
     button {
         padding: 10px;
-        background-color: black;
-        margin: 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin: 18px;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 }

@@ -1,25 +1,27 @@
 
 $(function() {
 
-    console.log("booop!");
+    console.log("version 1.2");
 
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('/service-worker.js')
+            .register('./service-worker.js')
             .then(function() { console.log('Service Worker Registered'); });
     }
     
-
     $(".js-save").click(function(e) {
-        console.log("try to save");
         trySave();
     });
 
 
     $(".js-one").click(function(e) {
         $(".one").html("<img src='images/photos/bubble.jpg' />");
-        $(".two").html("<img src='images/photos/bubble.jpg' />");
+        $(".two").html("<img src='images/photos/winter.jpg' />");
+    });
+
+    $(".js-three").click(function(e) {
+        $(".logo").attr("src","images/photos/redtree.jpg");
     });
 
 
@@ -32,7 +34,7 @@ function trySave() {
     console.log("trying to save");
 
     var dataCacheName = 'pwae-0.2';
-    var cacheName = 'pwa';
+    //var cacheName = 'pwa';
     
     var filesToCache = [
     //'index.php',
@@ -42,7 +44,8 @@ function trySave() {
     './js/vendor/jquery-3.3.1.min.js',
     './js/pwae.js',
     './images/photos/bubble.jpg',
-    './images/photos/winter.jpg'
+    './images/photos/winter.jpg',
+    './images/photos/redtree.jpg'
     ];
 
     caches.open(dataCacheName)
@@ -51,6 +54,6 @@ function trySave() {
     }).catch(function(err) {
       console.log("ERROR!?!!!");
       console.log(err);
-    })
+    });
 }
 
