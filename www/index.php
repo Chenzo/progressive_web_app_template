@@ -50,7 +50,7 @@ include "includes/globals.php";
             </div>
 
             <img class="logo" src="images/pwae_logo-512.png" />
-            <p>Testing PWAs - v 0.5</p>
+            <p>Testing PWAs - v 0.8</p>
 
             <div>
             <button class="js-save">SAVE FILES</button>

@@ -1,7 +1,7 @@
 
 $(function() {
 
-    console.log("version 1.2");
+    console.log("version 1.4");
 
 
     if ('serviceWorker' in navigator) {
@@ -22,6 +22,8 @@ $(function() {
 
     $(".js-three").click(function(e) {
         $(".logo").attr("src","images/photos/redtree.jpg");
+        $(".one").html("<img src='https://cdn.chenzorama.com/images/tiles/v2.1/3/0/3.png' />");
+        $(".two").html("<img src='https://cdn.chenzorama.com/images/tiles/v2.1/7/61/8.png' />");
     });
 
 
@@ -45,7 +47,9 @@ function trySave() {
     './js/pwae.js',
     './images/photos/bubble.jpg',
     './images/photos/winter.jpg',
-    './images/photos/redtree.jpg'
+    './images/photos/redtree.jpg',
+    'https://cdn.chenzorama.com/images/tiles/v2.1/7/61/8.png',
+    'https://cdn.chenzorama.com/images/tiles/v2.1/3/0/3.png'
     ];
 
     caches.open(dataCacheName)
